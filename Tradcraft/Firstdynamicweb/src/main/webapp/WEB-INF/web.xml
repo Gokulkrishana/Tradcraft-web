@@ -1,0 +1,21 @@
+<web-app>
+
+	<welcome-file-list>
+		<welcome-file>Login.jsp</welcome-file>
+	</welcome-file-list>
+	
+	<context-param>
+		<param-name>url</param-name>
+		<param-value>jdbc:mysql://localhost/firstweb</param-value>
+	</context-param>
+	<context-param>
+		<param-name>uname</param-name>
+		<param-value>root</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>gokul</param-value>
+	</context-param>
+	
+
+</web-app>
